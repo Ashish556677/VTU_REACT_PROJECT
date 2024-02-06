@@ -5,7 +5,7 @@ const Footer = () => {
     const currentYear = new  Date().getFullYear()
     return(
         <Footer>
-            <Row>
+            <Row className='text-center'>
                 <Col>
                        VTU &copy;{currentYear}
                 </Col>
